@@ -37,7 +37,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   google_fonts: ^6.2.1
   carousel_slider: ^5.0.0
-  material_design_icons_flutter: ^7.0.7296
+  material_design_icons_flutter: ^7.0.7296  
+  url_launcher: ^6.1.11
+  animated_text_kit: ^4.2.2
+  visibility_detector: ^0.4.0+2
+  flutter_staggered_grid_view: ^0.6.2
 
 dev_dependencies:
   flutter_test:
@@ -63,11 +67,15 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/
-     
+     - assets/images/logos/
+     - assets/images/portfolio/
+     - assets/images/tools/
+    
   fonts:
-    - family: Montserrat
+    - family: Quicksand
       fonts:
-        - asset: assets/fonts/Montserrat-Regular.ttf
-        - asset: assets/fonts/Montserrat-Bold.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Regular.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/quicksand/Quicksand-Bold.ttf
           weight: 700

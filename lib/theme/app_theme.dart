@@ -12,7 +12,7 @@ class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
       primarySwatch: Colors.pink,
-      fontFamily: 'Quicksand', // Mudando para uma fonte mais arredondada e infantil
+      fontFamily: 'Quicksand',
       scaffoldBackgroundColor: Colors.white,
       textTheme: const TextTheme(
         headlineLarge: TextStyle(
