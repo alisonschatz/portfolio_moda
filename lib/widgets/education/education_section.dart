@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio_jessica/widgets/common/section_title.dart';
 import 'package:portfolio_jessica/widgets/education/education_card.dart';
 import 'package:portfolio_jessica/models/education.dart';
-import 'package:portfolio_jessica/theme/app_theme.dart';
+
 
 class EducationSection extends StatelessWidget {
   const EducationSection({super.key});

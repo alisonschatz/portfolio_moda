@@ -3,7 +3,7 @@ import 'package:portfolio_jessica/widgets/common/section_title.dart';
 import 'package:portfolio_jessica/widgets/portfolio/portfolio_grid.dart';
 import 'package:portfolio_jessica/widgets/portfolio/category_filter.dart';
 import 'package:portfolio_jessica/models/portfolio_item.dart';
-import 'package:portfolio_jessica/theme/app_theme.dart';
+
 
 class PortfolioSection extends StatefulWidget {
   const PortfolioSection({super.key});
@@ -24,7 +24,7 @@ class _PortfolioSectionState extends State<PortfolioSection> {
   ];
 
   final List<PortfolioItem> portfolioItems = [
-    PortfolioItem(
+    const PortfolioItem(
       id: '1',
       title: 'Coleção Verão 2024',
       description: 'Linha infantil com tecidos leves e cores vibrantes',
